@@ -2,6 +2,12 @@
 
  > Small but very useful tool for `Windows` to check wether the mysql connection is working or not.
 
+<!-- ![MySqlTest](https://repository-images.githubusercontent.com/338935900/7b2c0180-6fd9-11eb-8d1c-f88fbd0cd3c5) -->
+
+<p align="center">
+  <img src="https://repository-images.githubusercontent.com/338935900/7b2c0180-6fd9-11eb-8d1c-f88fbd0cd3c5" width="450" alt="MySqlTest.png">
+</p>
+
 ## How did i came up with this idea?
 
 ```
