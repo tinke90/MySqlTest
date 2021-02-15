@@ -98,7 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColorTransformation.cs" />
+    <Compile Include="utils\color_transform\ColorTransformation.cs" />
     <Compile Include="ErrorWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,13 +111,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LabelText.cs" />
-    <Compile Include="Logs.cs" />
-    <Compile Include="MySql.cs" />
+    <Compile Include="utils\logger\LabelText.cs" />
+    <Compile Include="utils\logger\Logs.cs" />
+    <Compile Include="utils\mysql\MySql.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RequiredFieldsFilled.cs" />
-    <Compile Include="TextFieldClickListener.cs" />
+    <Compile Include="utils\validation\RequiredFieldsFilled.cs" />
+    <Compile Include="utils\click_listeners\TextFieldClickListener.cs" />
     <EmbeddedResource Include="ErrorWindow.resx">
       <DependentUpon>ErrorWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -147,5 +147,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

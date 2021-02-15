@@ -80,7 +80,6 @@ namespace MySqlTest
             this.tf_host.Name = "tf_host";
             this.tf_host.Size = new System.Drawing.Size(227, 23);
             this.tf_host.TabIndex = 2;
-            this.tf_host.Text = "192.168.0.11";
             this.toolTip1.SetToolTip(this.tf_host, "Enter ip address");
             // 
             // title_host
@@ -106,7 +105,6 @@ namespace MySqlTest
             this.tf_port.Name = "tf_port";
             this.tf_port.Size = new System.Drawing.Size(227, 23);
             this.tf_port.TabIndex = 4;
-            this.tf_port.Text = "3306";
             this.toolTip1.SetToolTip(this.tf_port, "Enter mysql port");
             // 
             // title_database
@@ -124,7 +122,6 @@ namespace MySqlTest
             this.tf_database.Name = "tf_database";
             this.tf_database.Size = new System.Drawing.Size(227, 23);
             this.tf_database.TabIndex = 6;
-            this.tf_database.Text = "fintoy_web";
             this.toolTip1.SetToolTip(this.tf_database, "Enter database name");
             // 
             // title_username
@@ -142,7 +139,6 @@ namespace MySqlTest
             this.tf_username.Name = "tf_username";
             this.tf_username.Size = new System.Drawing.Size(227, 23);
             this.tf_username.TabIndex = 8;
-            this.tf_username.Text = "test";
             this.toolTip1.SetToolTip(this.tf_username, "Enter mysql username");
             // 
             // title_password

@@ -25,6 +25,7 @@ using System.Windows.Forms;
 ///             THIS IS A MAIN FORM
 ///             
 ///             # METHODS
+///              - InitializeFieldTexts()           | void
 ///              - GetTextfields()                  | TextBox[]
 ///              - GetRequiredSymbols()             | Label[]
 ///              - Button_Connect()                 | void
@@ -46,6 +47,7 @@ namespace MySqlTest
         {
             InitializeComponent();
 
+            InitializeFieldTexts();
 
 
             LoadRequiredSymbols();              // Hide required fields symbols
@@ -54,6 +56,18 @@ namespace MySqlTest
 
             Button_Connect();                   // Load connection button
         }
+
+
+        #region InitializeFieldTexts region
+        private void InitializeFieldTexts()
+        {
+            tf_host.Text = "192.168.0.11";
+            tf_port.Text = "3306";
+            tf_database.Text = "fintoy_web";
+            tf_username.Text = "test";
+            tf_password.Text = "test";
+        }
+        #endregion
 
 
         #region GetTextfields region
